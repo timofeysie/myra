@@ -2,13 +2,22 @@ Workspace::Application.routes.draw do
   get 'static_pages/about'
   get 'static_pages/help'
   get 'static_pages/myra'
+  get 'static_pages/serrata'
+  get 'static_pages/hakea_blossom'
+  get 'static_pages/stingray'
+  get 'static_pages/l_90'
+  get 'static_pages/wallabies'
   
-
+  get 'static_pages/palm_beach_wharf'
+  get 'static_pages/bennets'
+  get 'static_pages/bonnie_doon'
+  get 'static_pages/the_basin'
+  get 'static_pages/great_mackerel'
+  get 'static_pages/lion_island'
+  
   get "home/index"
-  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
   # You can have the root of your site routed with "root"
 root 'home#index'
 

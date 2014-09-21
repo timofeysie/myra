@@ -8,4 +8,7 @@ class StaticPagesController < ApplicationController
   def myra
   end
   
+  def serrata
+  end
+  
 end
