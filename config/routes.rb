@@ -1,4 +1,6 @@
 Workspace::Application.routes.draw do
+  resources :comments
+
   get 'static_pages/about'
   get 'static_pages/help'
   get 'static_pages/myra'

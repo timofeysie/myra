@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Static pages" do
   
-  # Characters
+  # basic
   
   describe "About Page" do
     it "should have the content 'About'" do
@@ -25,6 +25,8 @@ describe "Static pages" do
       expect(page).to have_title("Help")
     end
   end
+  
+  # Characters
   
   describe "Myra page" do
     it "should have the content 'Myra'" do
