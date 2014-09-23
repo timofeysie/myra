@@ -60,4 +60,5 @@ bower.json
 #   (use "git add <file>..." to update what will be committed)
 #   (use "git checkout -- <file>..." to discard changes in working directory)\
 #         modified:   .c9/metadata/tab31
-.c9/metadata/tab31
+/.c9/metadata
+
