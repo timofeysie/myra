@@ -1,4 +1,9 @@
 Workspace::Application.routes.draw do
+  get 'news/news'
+
+  #get 'users/new'
+  match '/signup',  to: 'users#new',via: 'get'
+
   get 'sales/index'
 
   resources :comments
