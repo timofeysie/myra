@@ -11,3 +11,37 @@
  *= require_self
  *= require_tree .
  */
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+  font-family: "Times New Roman" !important;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #000;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}

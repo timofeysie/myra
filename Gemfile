@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Originals
 gem 'rails', '4.1.4'
 gem 'spring',        group: :development
-gem 'minitest'
+gem 'minitest', '~> 5.1.0'
 
 group :development, :test do
   gem 'sqlite3'

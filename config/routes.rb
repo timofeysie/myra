@@ -1,7 +1,11 @@
 Workspace::Application.routes.draw do
+  get 'sales/index'
+
   resources :comments
 
-  get 'static_pages/about'
+  #get 'static_pages/about'
+  match '/about', to: 'static_pages#about', via: 'get'
+  
   get 'static_pages/help'
   get 'static_pages/myra'
   get 'static_pages/serrata'
