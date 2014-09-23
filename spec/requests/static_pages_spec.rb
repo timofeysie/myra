@@ -3,16 +3,11 @@ require 'spec_helper'
 describe "Static pages" do
   
   # basic
-  
+  subject {page}
   describe "About Page" do
-    it "should have the content 'About'" do
-      visit '/static_pages/about'
-      expect(page).to have_content('About')
-    end
-    it "should have the title 'About'" do
-      visit '/static_pages/about'
-      expect(page).to have_title("About")
-    end
+    before {visit root_path}
+    it {should have_content('About')}
+    it {should have_title('About the author')}
   end
   
   describe "Help page" do
