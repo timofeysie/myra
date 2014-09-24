@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.4'
 gem 'spring',        group: :development
 gem 'minitest', '~> 5.1.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
   gem 'sqlite3'
