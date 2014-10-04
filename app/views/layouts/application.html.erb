@@ -13,6 +13,14 @@
 <body>
 <!-- Navigation bar -->
 <%= render 'layouts/nav_bar' %>
+
+<!-- User added flash-->
+    <div class="container">
+      <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+    </div>
+
 <div class="container">
   <%= yield %>
   <%= debug(params) if Rails.env.development? %>
