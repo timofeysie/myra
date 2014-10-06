@@ -10,7 +10,7 @@ describe "Comment pages" do
   end
   
   describe "profile page" do
-    let(:user) { FactoryGirl.create(:user) }
+    let(:user) { FactoryGirl.create(:comments) }
     before { visit user_path(user) }
     it { should have_content(user.name) }
     it { should have_title(user.name) }
