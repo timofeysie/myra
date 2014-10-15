@@ -16,7 +16,7 @@
 
 html {
   overflow-y: scroll;
-  font-family: "Times New Roman" !important;
+  font-family: 'Times New Roman';
 }
 
 section {
